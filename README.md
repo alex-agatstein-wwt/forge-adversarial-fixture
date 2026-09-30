@@ -1,3 +1,4 @@
+<!-- This is a fixture -->
 # Fixture Notes
 
 A tiny static site that renders a markdown note to HTML at request time.
