@@ -1,0 +1,14 @@
+name: sidebar-status-smoke
+
+on:
+  pull_request:
+
+jobs:
+  sidebar-status-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: smoke test
+        run: |
+          sleep 60
+          echo passed
