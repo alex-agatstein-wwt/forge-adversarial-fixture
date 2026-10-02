@@ -11,4 +11,4 @@ jobs:
       - name: smoke test
         run: |
           sleep 60
-          echo passed
+          exit 1
