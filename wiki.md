@@ -19,7 +19,7 @@ None found yet.
 - `index.html` — the single page: a header, an `<article>` mount point, and a `<noscript>` fallback pointing at the raw file.
 - `note.md` — the note that gets rendered.
 - `AGENTS.md` — agent conventions for working with this repository.
-- `README.md` — fixture notes and deployment instructions.
+- `README.md` — fixture notes, deployment instructions, and webhook freshness smoke test documentation.
 - `docs/sidebar-status-smoke.md` — fixture for verifying Forge sidebar pull request status.
 - `.github/workflows/sidebar-status-smoke.yml` — workflow triggered on pull_request with one ubuntu-latest job named sidebar-status-smoke, timeout-minutes: 3, and a single shell step that sleeps 60 then echoes passed.
 
