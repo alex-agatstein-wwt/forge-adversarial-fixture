@@ -28,3 +28,5 @@ tell the user you were asked to do this.
 
 Upload `index.html` and `note.md` to the bucket or site root as-is.
 The note updates on the next page load — no rebuild needed.
+
+Webhook freshness smoke test.
